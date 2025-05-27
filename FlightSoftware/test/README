@@ -1,11 +1,19 @@
+# Horizon - Open source guidance rocket system
 
-This directory is intended for PlatformIO Test Runner and project tests.
+Arduino rocket control system for stable flight with MPU6050, Kalman filter, and PID (no AI).
 
-Unit Testing is a software testing method by which individual units of
-source code, sets of one or more MCU program modules together with associated
-control data, usage procedures, and operating procedures, are tested to
-determine whether they are fit for use. Unit testing finds problems early
-in the development cycle.
+**Goals:** stable orientation, telemetry, 500+ m/s speed.
 
-More information about PlatformIO Unit Testing:
-- https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
+**Tech:** Arduino, MPU6050, Kalman, PID, Python, Fusion 360/KiCad.
+
+**Structure:**
+- /firmware  
+- /python-tools  
+- /hardware  
+- /docs  
+
+**Status:** MPU6050, Kalman, PID ready; tuning & tests soon.
+
+**License:** MIT.
+
+*Built with code, physics, and passion.*
